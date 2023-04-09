@@ -2,8 +2,44 @@
   {
     "path": "/electron-shaders/UF-Decrypt",
     "title": "GitHub - electron-shaders/UF-Decrypt: This tool does what you suppose. Curren...",
-    "count": 4,
-    "uniques": 4
+    "count": 8,
+    "uniques": 5
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt/blob/main/readme.md",
+    "title": "UF-Decrypt/readme.md at main · electron-shaders/UF-Decrypt · GitHub",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt/releases/tag/v1.2",
+    "title": "Release v1.2 · electron-shaders/UF-Decrypt",
+    "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt/actions",
+    "title": "Actions · electron-shaders/UF-Decrypt · GitHub",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt/actions/caches",
+    "title": "Actions · electron-shaders/UF-Decrypt · GitHub",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt/issues",
+    "title": "Issues · electron-shaders/UF-Decrypt · GitHub",
+    "count": 1,
+    "uniques": 1
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt/pulse",
+    "title": "Pulse · electron-shaders/UF-Decrypt · GitHub",
+    "count": 1,
+    "uniques": 1
   },
   {
     "path": "/electron-shaders/UF-Decrypt/releases",
@@ -12,8 +48,8 @@
     "uniques": 1
   },
   {
-    "path": "/electron-shaders/UF-Decrypt/releases/tag/v1.2",
-    "title": "Release v1.2 · electron-shaders/UF-Decrypt",
+    "path": "/electron-shaders/UF-Decrypt/security",
+    "title": "Security Overview · electron-shaders/UF-Decrypt · GitHub",
     "count": 1,
     "uniques": 1
   }
