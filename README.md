@@ -64,6 +64,36 @@
 [![clones per week](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-electron-shaders.github.io/clones_per_week.svg)](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic#-electron-shaders.github.io)
 ```
 
+## 📚 [literate-parakeet](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic/traffic-literate-parakeet)
+
+### 📷 Badges without link of [literate-parakeet](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic/traffic-literate-parakeet)
+
+![views](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/views.svg)
+![views per week](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/views_per_week.svg)
+![clones](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/clones.svg)
+![clones per week](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/clones_per_week.svg)
+
+```markdown
+![views](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/views.svg)
+![views per week](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/views_per_week.svg)
+![clones](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/clones.svg)
+![clones per week](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/clones_per_week.svg)
+```
+
+### 🔗 Badges with link of [literate-parakeet](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic/traffic-literate-parakeet)
+
+[![views](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/views.svg)](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic#-literate-parakeet)
+[![views per week](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/views_per_week.svg)](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic#-literate-parakeet)
+[![clones](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/clones.svg)](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic#-literate-parakeet)
+[![clones per week](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/clones_per_week.svg)](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic#-literate-parakeet)
+
+```markdown
+[![views](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/views.svg)](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic#-literate-parakeet)
+[![views per week](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/views_per_week.svg)](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic#-literate-parakeet)
+[![clones](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/clones.svg)](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic#-literate-parakeet)
+[![clones per week](https://raw.githubusercontent.com/electron-shaders/electron-shaders.github.io/traffic/traffic-literate-parakeet/clones_per_week.svg)](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic#-literate-parakeet)
+```
+
 ## 📚 [The-4V.E.A.T.](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic/traffic-The-4V.E.A.T.)
 
 ### 📷 Badges without link of [The-4V.E.A.T.](https://github.com/electron-shaders/electron-shaders.github.io/tree/traffic/traffic-The-4V.E.A.T.)
