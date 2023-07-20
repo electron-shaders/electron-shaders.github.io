@@ -8,8 +8,14 @@
   {
     "path": "/electron-shaders/UF-Decrypt",
     "title": "electron-shaders/UF-Decrypt: This tool does what you suppose. Currently suppo...",
-    "count": 4,
-    "uniques": 3
+    "count": 5,
+    "uniques": 4
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt/fork",
+    "title": "Fork electron-shaders/UF-Decrypt",
+    "count": 1,
+    "uniques": 1
   },
   {
     "path": "/electron-shaders/UF-Decrypt/tree/main",
