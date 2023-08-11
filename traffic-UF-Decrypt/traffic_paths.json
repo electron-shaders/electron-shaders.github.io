@@ -1,11 +1,5 @@
 [
   {
-    "path": "/electron-shaders/UF-Decrypt",
-    "title": "GitHub - electron-shaders/UF-Decrypt: This tool does what you suppose. Curren...",
-    "count": 2,
-    "uniques": 2
-  },
-  {
     "path": "/electron-shaders/UF-Decrypt/blob/main/config.json",
     "title": "UF-Decrypt/config.json at main · electron-shaders/UF-Decrypt · GitHub",
     "count": 2,
@@ -15,6 +9,12 @@
     "path": "/electron-shaders/UF-Decrypt/blob/main/readme.md",
     "title": "UF-Decrypt/readme.md at main · electron-shaders/UF-Decrypt · GitHub",
     "count": 2,
+    "uniques": 1
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt",
+    "title": "GitHub - electron-shaders/UF-Decrypt: This tool does what you suppose. Curren...",
+    "count": 1,
     "uniques": 1
   }
 ]
