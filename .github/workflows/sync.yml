@@ -10,8 +10,7 @@ jobs:
           - git@codeberg.org:electron-shaders/ManifestAutoUpdate.git
           - git@gitea.com:electron-shaders/ManifestAutoUpdate.git
           - git@gitcode.net:weixin_43906714/ManifestAutoUpdate.git
-          - ssh://electronshaders@git.code.sf.net/p/manifestautoupdate/git
-          - git+ssh://electron-shaders@git.launchpad.net/~electron-shaders/manifestautoupdate
+          - ssh://electron-shaders@git.launchpad.net/~electron-shaders/manifestautoupdate
           - ssh://rhodecode@code.rhodecode.com:3022/u/electron-shaders/ManifestAutoUpdate
     runs-on: ubuntu-latest
     steps:
