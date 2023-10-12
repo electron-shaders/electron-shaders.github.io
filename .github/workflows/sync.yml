@@ -1,8 +1,6 @@
 name: Sync and Mirror
 
-on:
-  schedule:
-  - cron: "0 1 * * *"
+on: pull_request
 
 jobs:
   sync-mirrors:
@@ -14,7 +12,7 @@ jobs:
           - git@gitea.com:electron-shaders/ManifestAutoUpdate.git
           - git@gitcode.net:weixin_43906714/ManifestAutoUpdate.git
         include:
-        - remote: ssh://electron-shaders@git.launchpad.net/~electron-shaders/manifestautoupdate
+        - remote: git+ssh://electron-shaders@git.launchpad.net/manifestautoupdate
           username: electron-shaders
         - remote: ssh://electronshaders@git.code.sf.net/p/manifestautoupdate/git
           username: electronshaders
