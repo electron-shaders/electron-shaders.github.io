@@ -1,0 +1,29 @@
+name: Sync and Mirror
+
+on:
+  schedule:
+  - cron: "0 1 * * *"
+
+jobs:
+  sync-mirrors:
+    strategy:
+      matrix:
+        remote:
+          - github.com:electron-shaders/ManifestAutoUpdate
+          - bitbucket.org:manifestautoupdate/manifestautoupdate
+          - codeberg.org:electron-shaders/ManifestAutoUpdate
+          - gitea.com:electron-shaders/ManifestAutoUpdate
+          - gitcode.net:weixin_43906714/ManifestAutoUpdate
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout upstream repo
+      uses: actions/checkout@v4
+      with:
+        repository: heyong5454/ManifestAutoUpdate
+        fetch-depth: 0    
+
+    - name: Push to mirror repos
+      uses: pixta-dev/repository-mirroring-action@v1
+      with:
+        target_repo_url: git@${{ matrix.remote }}.git
+        ssh_private_key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
