@@ -9,7 +9,6 @@ jobs:
     strategy:
       matrix:
         remote:
-          - github.com:electron-shaders/ManifestAutoUpdate
           - bitbucket.org:manifestautoupdate/manifestautoupdate
           - codeberg.org:electron-shaders/ManifestAutoUpdate
           - gitea.com:electron-shaders/ManifestAutoUpdate
