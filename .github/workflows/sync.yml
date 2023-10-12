@@ -13,8 +13,8 @@ jobs:
         include:
         - remote: ssh://electron-shaders@git.launchpad.net/~electron-shaders/manifestautoupdate
           username: electron-shaders
-        - remote: ssh://rhodecode@code.rhodecode.com:3022/u/electron-shaders/ManifestAutoUpdate
-          username: rhodecode
+        - remote: ssh://electronshaders@git.code.sf.net/p/manifestautoupdate/git
+          username: electronshaders
     runs-on: ubuntu-latest
     steps:
     - name: Checkout upstream repo
@@ -22,10 +22,16 @@ jobs:
       with:
         repository: heyong5454/ManifestAutoUpdate
         fetch-depth: 0    
-
+    
     - name: Push to modern mirror repos
       uses: pixta-dev/repository-mirroring-action@v1
       with:
         target_repo_url: ${{ matrix.remote }}
         ssh_private_key: ${{ secrets.GIT_SSH_PRIVATE_KEY }}
         ssh_username: ${{ matrix.username && matrix.username || 'git' }}
+
+    - name: Manually mirror to rhodecode
+      env:
+        RHODECODE_API_TOKEN: ${{ secrets.RHODECODE_API_TOKEN }}
+      run: |
+        curl https://code.rhodecode.com/_admin/api -X POST -H 'content-type:text/plain' --data-binary 'b'{"id":1,"auth_token":"$RHODECODE_API_TOKEN","method":"pull","args":{"repoid":"u/electron-shaders/ManifestAutoUpdate"}}''
