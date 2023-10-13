@@ -1,0 +1,15 @@
+name: Sync and Mirror for Rhodecode
+
+on:
+  schedule:
+  - cron: "0 1 * * *"
+
+jobs:
+  sync-rhodecode:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Manually mirror to rhodecode
+      env:
+        RHODECODE_API_TOKEN: ${{ secrets.RHODECODE_API_TOKEN }}
+      run: |
+        curl https://code.rhodecode.com/_admin/api -X POST -H 'content-type:text/plain' --data-binary "{\"id\":1,\"auth_token\":\"$RHODECODE_API_TOKEN\",\"method\":\"pull\", \"args\":{\"repoid\":\"u/electron-shaders/ManifestAutoUpdate\"}}" -v
