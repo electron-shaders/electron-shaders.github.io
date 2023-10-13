@@ -1,6 +1,8 @@
 name: Sync and Mirror
 
-on: pull_request
+on:
+  schedule:
+  - cron: "0 1 * * *"
 
 jobs:
   sync-mirrors:
@@ -23,7 +25,7 @@ jobs:
       with:
         repository: heyong5454/ManifestAutoUpdate
         fetch-depth: 0    
-    
+
     - name: Push to mirror repos
       uses: pixta-dev/repository-mirroring-action@v1
       with:
