@@ -1,12 +1,11 @@
 name: Sync and Mirror
 
-on:
-  schedule:
-  - cron: "0 1 * * *"
+on: pull_request
 
 jobs:
   sync-mirrors:
     strategy:
+      fail-fast: false
       matrix:
         remote:
           - git@bitbucket.org:manifestautoupdate/manifestautoupdate.git
