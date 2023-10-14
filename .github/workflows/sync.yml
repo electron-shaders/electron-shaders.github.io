@@ -7,6 +7,7 @@ on:
 jobs:
   sync-mirrors:
     strategy:
+      fail-fast: false
       matrix:
         remote:
           - git@bitbucket.org:manifestautoupdate/manifestautoupdate.git
