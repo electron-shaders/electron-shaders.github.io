@@ -1,19 +1,31 @@
 [
   {
+    "path": "/electron-shaders/UF-Decrypt",
+    "title": "GitHub - electron-shaders/UF-Decrypt: This tool does what you suppose. Curren...",
+    "count": 2,
+    "uniques": 2
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt/releases/tag/v1.2",
+    "title": "Release v1.2 · electron-shaders/UF-Decrypt · GitHub",
+    "count": 2,
+    "uniques": 2
+  },
+  {
+    "path": "/electron-shaders/UF-Decrypt/blob/main/UF-Decrypt.py",
+    "title": "UF-Decrypt/UF-Decrypt.py at main · electron-shaders/UF-Decrypt",
+    "count": 2,
+    "uniques": 1
+  },
+  {
     "path": "/electron-shaders/UF-Decrypt/tree/main/.vscode",
     "title": "UF-Decrypt/.vscode at main · electron-shaders/UF-Decrypt · GitHub",
     "count": 2,
     "uniques": 1
   },
   {
-    "path": "/electron-shaders/UF-Decrypt",
-    "title": "GitHub - electron-shaders/UF-Decrypt: This tool does what you suppose. Curren...",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/electron-shaders/UF-Decrypt/releases/tag/v1.2",
-    "title": "Release v1.2 · electron-shaders/UF-Decrypt · GitHub",
+    "path": "/electron-shaders/UF-Decrypt/tree/main",
+    "title": "electron-shaders/UF-Decrypt: This tool does what you suppose. Currently suppo...",
     "count": 1,
     "uniques": 1
   }
