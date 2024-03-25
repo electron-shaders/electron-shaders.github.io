@@ -1,62 +1,8 @@
 [
   {
-    "path": "/electron-shaders/web-calculator/blob/main/frontend/src/utils/axios.js",
-    "title": "web-calculator/frontend/src/utils/axios.js at main · electron-shaders/web-cal...",
-    "count": 4,
-    "uniques": 1
-  },
-  {
     "path": "/electron-shaders/web-calculator/commit/619dd575d6ed9f957b48623fa3b6aa6936fabc63",
     "title": "Update axios.js · electron-shaders/web-calculator@619dd57",
-    "count": 4,
-    "uniques": 1
-  },
-  {
-    "path": "/electron-shaders/web-calculator/commits/main",
-    "title": "Commits · electron-shaders/web-calculator",
     "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/electron-shaders/web-calculator/tree/main/frontend",
-    "title": "web-calculator/frontend at main · electron-shaders/web-calculator",
-    "count": 3,
-    "uniques": 1
-  },
-  {
-    "path": "/electron-shaders/web-calculator/blob/main/frontend/modifier.py",
-    "title": "web-calculator/frontend/modifier.py at main · electron-shaders/web-calculator",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/electron-shaders/web-calculator/edit/main/frontend/src/utils/axios.js",
-    "title": "Editing web-calculator/frontend/src/utils/axios.js at main · electron-shaders...",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/electron-shaders/web-calculator/tree/main/frontend/src",
-    "title": "web-calculator/frontend/src at main · electron-shaders/web-calculator",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/electron-shaders/web-calculator/tree/main/frontend/src/utils",
-    "title": "web-calculator/frontend/src/utils at main · electron-shaders/web-calculator",
-    "count": 2,
-    "uniques": 1
-  },
-  {
-    "path": "/electron-shaders/web-calculator",
-    "title": "electron-shaders/web-calculator: 一个(有点)经不起调戏的网络计算器 - A simple yet (slightly) ...",
-    "count": 1,
-    "uniques": 1
-  },
-  {
-    "path": "/electron-shaders/web-calculator/actions/runs/8228537390/job/22498147553",
-    "title": "Update axios.js · electron-shaders/web-calculator@619dd57",
-    "count": 1,
     "uniques": 1
   }
 ]
