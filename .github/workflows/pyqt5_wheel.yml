@@ -28,7 +28,6 @@ jobs:
           CIBW_PLATFORM: windows
           CIBW_BUILD: cp37-win_amd64
           CIBW_ARCHS: AMD64
-          CIBW_PROJECT_REQUIRES_PYTHON: ==3.7
         run: |
           cd PyQt5_sip-12.13.0
           python -m cibuildwheel --output-dir wheelhouse
