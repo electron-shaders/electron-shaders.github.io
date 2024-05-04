@@ -1,6 +1,6 @@
 name: Build PyQt5_sip-12.13.0 for Python 3.7 on Windows AMD64
 
-on: [push, pull_request]
+on: push
 
 jobs:
   build_wheels:
@@ -20,7 +20,7 @@ jobs:
 
       - name: Download archive
         run: |
-          curl https://files.pythonhosted.org/packages/ee/81/fce2a475aa56c1f49707d9306b930695b6ff078c2242c9f2fd72a3214e1f/PyQt5_sip-12.13.0.tar.gz
+          curl https://files.pythonhosted.org/packages/ee/81/fce2a475aa56c1f49707d9306b930695b6ff078c2242c9f2fd72a3214e1f/PyQt5_sip-12.13.0.tar.gz --output PyQt5_sip-12.13.0.tar.gz
           tar -zxvf .\PyQt5_sip-12.13.0.tar.gz
       
       - name: Build wheels
