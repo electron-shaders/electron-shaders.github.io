@@ -1943,11 +1943,6 @@
       "uniques": 4
     },
     {
-      "timestamp": "2024-04-26T00:00:00Z",
-      "count": 3,
-      "uniques": 2
-    },
-    {
       "timestamp": "2024-04-20T00:00:00Z",
       "count": 3,
       "uniques": 2
@@ -1974,6 +1969,11 @@
     },
     {
       "timestamp": "2024-04-25T00:00:00Z",
+      "count": 3,
+      "uniques": 2
+    },
+    {
+      "timestamp": "2024-04-26T00:00:00Z",
       "count": 3,
       "uniques": 2
     },
